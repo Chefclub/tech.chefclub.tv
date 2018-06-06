@@ -31,8 +31,8 @@ other Elm type aliases.
 The simple decoding
 ===================
 
-The ``Json.Decode`` library exposes all the primitives you need for
-you to decode JSON types: Boolean, Integer, String, List, Array,
+The ``Json.Decode`` library exposes all the primitives you need 
+to decode JSON types: Boolean, Integer, String, List, Array,
 Tuple, Dict, Float, null
 
 I personaly like the `JSON.Decode.Pipeline library <http://package.elm-lang.org/packages/NoRedInk/elm-decode-pipeline/3.0.0>`_
@@ -229,7 +229,7 @@ Try it here: https://ellie-app.com/qrHJ5smRsna1
 Hardcoded values
 ----------------
 
-You will see below that sometimes we want to add an hardcoded value.
+You will see below that sometimes we want to add a hardcoded value.
 
 **JSON samples**
 
@@ -437,13 +437,13 @@ Try it here: https://ellie-app.com/qsQwRxLpZta1
 Nested unpredictible keys decoding
 ==================================
 
-And what if the unpredictible keys are nested ?
+And what if the unpredictible keys are nested?
 
 Let's take back our previous example with ChefClub verticals, we might
-want to grab some information for each pages in each countries.
+want to grab some information for each page in each country.
 
-Most country have at least the Original page, but some don't have all
-the vertical or even have got specific verticals that don't exists in
+Most countries have at least the Original page, but some don't have all
+the verticals or even have got specific verticals that don't exist in
 other countries.
 
 **JSON samples**
@@ -454,7 +454,7 @@ other countries.
      "England": {"Original": {"id": 789}, "Light and Fun": {"id": 101112}}}
 
 Let's work reverse on this one, from the previous one we know that we
-can decode the page like we did previously with the Country.
+can decode the page like we did with the Country.
 
 .. code-block:: elm
 
